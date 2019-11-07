@@ -1,0 +1,61 @@
+@font-face {
+    font-family: FredokaOne;
+    src: url(../police/FredokaOne-Regular.ttf);
+}
+.card{
+    position: absolute;
+    font-family: FredokaOne;
+    font-family: 'FredokaOne';
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100px;
+    border-radius: 3px; 
+    background: linear-gradient(-90deg , #ececec, #b5b5b5);
+    /* background: #fff5f2; */
+    /* border: 4px solid black; */
+    justify-content: center;
+    align-items: center;
+}.hiddenCard:after {
+    content: '';
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    border-radius: 3px; 
+    border: 2px solid #886868;
+    background-color: #541616;
+    background-image:
+    repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+    linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 120px;
+}
+
+.name{
+    width: 100%;
+    filter: grayscale(25%)
+}.symbole{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.name2{
+    width: 100%;
+    transform: rotate(180deg);
+}.name,.name2{
+    padding-left: 9px; 
+}
+.Spade, .Club, .black{color: #515262;}
+.Diamond, .Heart, .red{color:#ff6464;}
+
+.sabot {
+    position: relative;
+    width: 75px;
+    height: 100px;
+}
+.sabot::after{
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

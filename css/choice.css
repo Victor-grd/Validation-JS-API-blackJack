@@ -1,0 +1,43 @@
+.secteur__choice {
+    background: linear-gradient(-180deg, #8a1013, #460000);
+    border-top: 2px solid white;
+    position: absolute;
+    bottom: 0;
+    height: 22vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column
+}
+
+.secteur__choice--close {
+    bottom: -21vh
+}
+
+.close-choice{
+    position: absolute;
+    right: 0;
+    top: -2vh;
+    background: #8a1013;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+.close-choice:focus{
+    outline: none;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+.button {
+    width: 45%;
+    height: 100%;
+    border: none;
+}

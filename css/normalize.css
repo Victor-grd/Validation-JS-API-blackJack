@@ -1,0 +1,7 @@
+html{
+    height:100%;
+    overflow: hidden;
+}
+h1,h2,h3,h4,p{margin: 0; color: white}
+.black{color: #333231;}
+.red{color:#d65359;}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/choice.css">
+    <link rel="stylesheet" href="./css/popup.css">
+    <link rel="icon" type="image/png" href="#"/>
+    <title>Semaine JS</title>
+</head>
+<body>
+    <section class="main">
+        <section class="secteur  secteur__dealer">
+            <h4 class="total total__dealer">Total :</h4>
+            <div class="deck deck__dealer"></div>
+        </section>
+
+        <section class="center-game">
+            <div class="sabot hiddenCard"></div>
+            <!-- <button class="playGame">play</button> -->
+            <div class="stats">
+                <p class="indice">indice : 0</p>
+                <p class="probaA">autre : 58%</p>
+                <p class="probaB">buche : 42%</p>
+                <p class="conseil">conseil</p>
+            </div>
+        </section>
+
+        <section class="secteur  secteur__player">
+            <h4 class="total total__player">Total :</h4>
+            <div class="deck deck__player"></div>
+        </section>
+
+        <section class="secteur__choice  secteur__choice--close">
+            <button class="close-choice"></button>
+            <div class="buttons">
+                <button class="button oneMoreCard">+1</button>
+                <button class="button stopGame">stop</button>
+            </div>
+            <div class="buttons">
+                <button class="button replay">replay</button>
+            </div>
+        </section>
+
+        <section class="modal-conseil hiddenModal">
+            <div class="decks">
+                <div>
+                    <div class="deck deck__dealer--2"></div>
+                    <h4 class="total total__dealer--2">Total :</h4>
+                </div>
+                <div>
+                    <div class="deck deck__player--2"></div>
+                    <h4 class="total total__player--2">Total :</h4>
+                </div>
+            </div>
+            <div class="content-modal">
+                <h3>Description</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis tenetur tempora ab, sint quas tempore consectetur, culpa cupiditate dolore, exercitationem dolores sequi nostrum at enim! Necessitatibus ipsa in dolorem laudantium.</p>
+                <h3>Conseil</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis tenetur tempora ab, sint quas tempore consectetur, culpa cupiditate dolore, exercitationem dolores sequi nostrum at enim! Necessitatibus ipsa in dolorem laudantium.</p>
+            </div>
+            <button class="close-conseil">close</button>
+        </section>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>

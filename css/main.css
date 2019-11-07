@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-clip: padding-box;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(-90deg, #8a1013, #460000);
+
+}
+
+.secteur  {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats {
+    right: 0;
+}
+
+.secteur__dealer {
+    /* border-bottom: 1px solid white; */
+}
+
+.center-game{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secteur__player {
+    /* border-top: 1px solid white; */
+}
+
+.deck {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}

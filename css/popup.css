@@ -1,0 +1,59 @@
+
+.modal-conseil{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background: linear-gradient(-90deg, #8a1013, #460000);
+    color: white;
+    top: 0
+}
+
+.hiddenModal {
+    display: none;
+}
+
+
+
+.pop button{
+    height: 40px;
+    width: 75px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    border: 3px solid white;
+    background: #6f6196;
+    color: white;
+}
+
+
+.pop h1{
+    text-shadow: 0px -5px 17px black;
+}
+
+.decks {
+    display: flex;
+    justify-content: space-between;
+    /* transform: scale(0.7); */
+}
+
+.decks > * {
+    transform: scale(0.7);
+
+}
+
+.content-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.close-conseil {
+    width: 120px;
+    position: absolute;
+    bottom: 50px;
+}
